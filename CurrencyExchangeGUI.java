@@ -4,7 +4,7 @@ public class CurrencyExchangeGUI {
     public static void main(String[] args) {
         // รับค่าจำนวนเงิน (รับเป็น String แล้วแปลงเป็น int)
         String moneyInput = JOptionPane.showInputDialog("Input your Money :");
-        int money = Integer.parseInt(moneyInput);g
+        int money = Integer.parseInt(moneyInput);
 
         // รับค่าประเทศ
         String country = JOptionPane.showInputDialog("Input Country to Exchange:\nJapan (Type j) or Vietnam (Type v)");
